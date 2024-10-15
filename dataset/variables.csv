@@ -1,0 +1,43 @@
+,description,name,role,type,demographic,units,missing_values
+0,age,AAGE,Feature,Integer,Age,,no
+1,class of worker,ACLSWKR,Feature,Categorical,,,no
+2,industry code,ADTINK,Feature,Integer,,,no
+3,occupation code,ADTOCC,Feature,Integer,Occupation,,no
+4,education,AHGA,Feature,Integer,Education Level,,no
+5,wage per hour,AHRSPAY,Feature,Integer,,,no
+6,enrolled in edu last week,AHSCOL,Feature,Categorical,Education Level,,no
+7,marital status,AMARITL,Feature,Categorical,Marital Status,,no
+8,major industry code,AMJIND,Feature,Categorical,,,no
+9,major occupation code,AMJOCC,Feature,Categorical,Occupation,,no
+10,race,ARACE,Feature,Categorical,Race,,no
+11,hispanic origin,AREORGN,Feature,Categorical,,,no
+12,sex,ASEX,Feature,Categorical,Sex,,no
+13,member of a labor union,AUNMEM,Feature,Categorical,,,no
+14,reason for unemployment,AUNTYPE,Feature,Categorical,,,no
+15,full or part time employment stat,AWKSTAT,Feature,Integer,,,no
+16,capital gains,CAPGAIN,Feature,Integer,,,no
+17,capital losses,GAPLOSS,Feature,Integer,,,no
+18,dividends from stocks,DIVVAL,Feature,Categorical,,,no
+19,tax filer status,FILESTAT,Feature,Categorical,,,no
+20,region of previous residence,GRINREG,Feature,Categorical,,,no
+21,state of previous residence,GRINST,Feature,Categorical,,,no
+22,detailed household and family stat,HHDFMX,Feature,Continuous,Other,,no
+23,detailed household summary in household,HHDREL,Feature,Categorical,,,no
+24,instance weight,MARSUPWRT,Feature,Categorical,,,no
+25,migration code-change in msa,MIGMTR1,Feature,Categorical,,,yes
+26,migration code-change in reg,MIGMTR3,Feature,Categorical,,,yes
+27,migration code-move within reg,MIGMTR4,Feature,Categorical,,,yes
+28,live in this house 1 year ago,MIGSAME,Feature,Integer,,,no
+29,migration prev res in sunbelt,MIGSUN,Feature,Categorical,,,yes
+30,num persons worked for employer,NOEMP,Feature,Categorical,,,no
+31,family members under 18,PARENT,Feature,Categorical,,,no
+32,country of birth father,PEFNTVTY,Feature,Categorical,,,yes
+33,country of birth mother,PEMNTVTY,Feature,Integer,,,yes
+34,country of birth self,PENATVTY,Feature,Categorical,Nationality,,no
+35,citizenship,PRCITSHP,Feature,Integer,,,no
+36,own business or self employed,SEOTR,Feature,Integer,,,no
+37,fill inc questionaire for veteran's admin,VETQVA,Feature,Categorical,,,no
+38,veterans benefits,VETYN,Feature,Categorical,,,no
+39,weeks worked in year,WKSWORK,Feature,Categorical,,,no
+40,94 or 95,year,Feature,Integer,,,no
+41,below or above $50k,income,Target,Binary,Income,,no
