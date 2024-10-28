@@ -1,8 +1,17 @@
-def clean_dataset(data):
-    print("Removing outliers")
-    data = data[data['wage per hour']<5000]
-    data = data[data['capital gains']<15000]
-    data = data[data['capital losses']<3500]
-    data = data[data['dividends from stocks']<2500]
-    print("Data Shape after removing outliers : ",data.shape)
-    return data
+# def clean_dataset(data,categorical_features,numerical_features):
+#     print("Removing outliers")
+#     data = data[data['HeightInMeters']>=1]
+#     data = data[data['HeightInMeters']<=2.2]
+
+#     data = data[data['WeightInKilograms']>=10]
+#     data = data[data['WeightInKilograms']<=270]
+
+#     data = data[data['SleepHours']>=0]
+#     data = data[data['SleepHours']<=20]
+#     print("Imputing missing values ")
+#     for col in categorical_features:
+#         data[col].fillna(data[col].mode()[0],inplace=True)
+#     for col in numerical_columns:
+#         data[col].fillna(data[col].median(), inplace=True)
+    
+    
