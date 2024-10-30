@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-def random_sampling(df, column_name, num_samples):
-    return df[column_name].sample(n = num_samples, replace=False)
+def random_sampling(df, num_samples):
+    return df.sample(n = num_samples, replace=False)
 
 def monte_carlo_sampling(df, column_name, sample_size, num_samples):
     samples = []
@@ -11,7 +11,6 @@ def monte_carlo_sampling(df, column_name, sample_size, num_samples):
         samples.append(l.mean())
 
     return samples
-
 
 #propotional sampling
 def stratified_sampling(df, column_name, num_samples):
