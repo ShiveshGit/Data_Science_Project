@@ -9,7 +9,6 @@ def monte_carlo_sampling(df, column_name, sample_size, num_samples):
     for i in range(num_samples):
         l = df[column_name].sample(n = sample_size, replace=True)
         samples.append(l.mean())
-
     return samples
 
 #propotional sampling
